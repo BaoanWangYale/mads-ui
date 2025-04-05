@@ -1,0 +1,74 @@
+/* Custom styling for PrimeVue components */
+
+/* Ensure textarea is visible - extra important rule */
+textarea {
+  display: block !important;
+  width: 100% !important;
+  min-height: 150px !important;
+  background-color: white !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 4px !important;
+  padding: 0.5rem !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  margin-bottom: 1rem !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  z-index: 100 !important;
+  position: relative !important;
+}
+
+/* Make sure the parent containers are visible */
+.field {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  margin-bottom: 1rem !important;
+}
+
+.p-fluid {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Override any specific component styles if needed */
+.p-inputtextarea {
+  width: 100%;
+  min-height: 150px;
+  resize: vertical;
+}
+
+/* Ensure textarea is visible with proper borders */
+.p-inputtext, .p-inputtextarea {
+  display: block;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #fff;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.p-inputtext:focus, .p-inputtextarea:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* PrimeVue button styling */
+.p-button {
+  margin: 0.25rem;
+}
+
+/* Ensure proper spacing for components */
+.field {
+  margin-bottom: 1rem;
+}
+
+/* Make sure any Divider is visible */
+.p-divider {
+  margin: 1.5rem 0;
+} 
