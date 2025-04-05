@@ -1,0 +1,18 @@
+[Unit]
+Description=MADS UI Service
+After=network.target
+
+[Service]
+Type=simple
+User=pythonapps
+WorkingDirectory=/home/pythonapps/mads-ui
+ExecStart=/usr/bin/npm run serve
+Restart=on-failure
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=mads-ui
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target 
