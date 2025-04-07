@@ -1,4 +1,4 @@
-# mads-diag-ui
+# mads-ui2
 
 ## Project setup
 ```
