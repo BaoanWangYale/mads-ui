@@ -12,8 +12,7 @@
           v-model="diagnosisText" 
           rows="6" 
           cols="80"
-          style="width: 100%; min-height: 150px; display: block; border: 1px solid #ced4da; padding: 8px;"
-          placeholder="Enter the patient's case information in detail..."
+          style="width: 100%; min-height: 200px; display: block; border: 1px solid #ced4da; padding: 8px;"
         ></textarea>
         
         <small class="text-secondary">Please provide as much detail as possible for an accurate diagnosis</small>
@@ -106,9 +105,10 @@ export default {
   },
   data() {
     return {
-      diagnosisText: '',
+      diagnosisText: config.defaultCaseDescription || '',
       diagnosisOutput: '',
-      loading: false
+      loading: false,
+      config: config
     };
   },
   methods: {
