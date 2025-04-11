@@ -10,9 +10,9 @@
         <textarea
           id="case-input" 
           v-model="diagnosisText" 
-          rows="6" 
+          rows="12" 
           cols="80"
-          style="width: 100%; min-height: 200px; display: block; border: 1px solid #ced4da; padding: 8px;"
+          style="width: 100%; min-height: 250px; display: block; border: 1px solid #ced4da; padding: 8px;"
         ></textarea>
         
         <small class="text-secondary">Please provide as much detail as possible for an accurate diagnosis</small>
