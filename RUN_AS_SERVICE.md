@@ -110,5 +110,5 @@ This document provides instructions on how to run the MADS UI application as a b
 Once the application is running, you can access it at:
 
 ```
-http://localhost:8081
+http://localhost:8080
 ``` 
